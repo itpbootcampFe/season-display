@@ -1,0 +1,31 @@
+*,
+*::after,
+* ::before,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.season-display {
+  min-height: 100vh;
+  position: relative;
+}
+
+.kis {
+  background-color: aliceblue;
+  color: blue;
+}
+
+.yaz {
+  background-color: orange;
+  color: red;
+}
+
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}

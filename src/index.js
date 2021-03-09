@@ -1,32 +1,25 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import SeasonDisplay from './SeasonDisplay';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { konum: null, hata: null };
+  state = { konum: null, hata: '' };
 
+  componentDidMount() {
     navigator.geolocation.getCurrentPosition(
-      //success
-      (konum) => {
-        this.setState({ konum: konum.coords.latitude });
-        /// WRONG!!! state={{ konum: konum.coords.latitude }}
-        console.log(`konum: `, this.state.konum);
-      },
-      //error
-      (hata) => {
-        this.setState({ hata: hata.message });
-        console.log(`hata Mesaji: `, this.state.hata);
-      }
+      (konum) => this.setState({ konum: konum.coords.latitude }),
+      (hata) => this.setState({ hata: hata.message })
     );
   }
 
   render() {
-    return (
-      <div>
-        <h1 style={{ textAlign: 'center' }}> this is season app</h1>
-      </div>
-    );
+    if (this.state.hata && !this.state.konum) {
+      return <div>Hata olustu: {this.state.hata} </div>;
+    }
+    if (!this.state.hata && this.state.konum) {
+      return <SeasonDisplay enlem={this.state.konum} />;
+    }
+    return <div> Loading... </div>;
   }
 }
 
