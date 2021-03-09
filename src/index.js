@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
+import Spinner from './Spinner';
 
 class App extends Component {
   state = { konum: null, hata: '' };
@@ -19,7 +20,7 @@ class App extends Component {
     if (!this.state.hata && this.state.konum) {
       return <SeasonDisplay enlem={this.state.konum} />;
     }
-    return <div> Loading... </div>;
+    return <Spinner text="please allow location" />;
   }
 }
 
