@@ -1,2 +1,0 @@
-(this["webpackJsonpseason-display"]=this["webpackJsonpseason-display"]||[]).push([[0],{4:function(e,s,t){"use strict";t.r(s);t(1);var n=t(3),c=t.n(n),i=t(0),r=function(){return Object(i.jsx)("div",{children:Object(i.jsx)("h1",{style:{textAlign:"center"},children:" this is season app"})})};c.a.render(Object(i.jsx)(r,{}),document.querySelector("#root"))}},[[4,1,2]]]);
-//# sourceMappingURL=main.0006e18c.chunk.js.map

@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/season-display/static/js/main.0006e18c.chunk.js",
-    "main.js.map": "/season-display/static/js/main.0006e18c.chunk.js.map",
+    "main.css": "/season-display/static/css/main.d21252c1.chunk.css",
+    "main.js": "/season-display/static/js/main.6888d3cd.chunk.js",
+    "main.js.map": "/season-display/static/js/main.6888d3cd.chunk.js.map",
     "runtime-main.js": "/season-display/static/js/runtime-main.b6118455.js",
     "runtime-main.js.map": "/season-display/static/js/runtime-main.b6118455.js.map",
-    "static/js/2.0d73b33a.chunk.js": "/season-display/static/js/2.0d73b33a.chunk.js",
-    "static/js/2.0d73b33a.chunk.js.map": "/season-display/static/js/2.0d73b33a.chunk.js.map",
+    "static/js/2.f2d67437.chunk.js": "/season-display/static/js/2.f2d67437.chunk.js",
+    "static/js/2.f2d67437.chunk.js.map": "/season-display/static/js/2.f2d67437.chunk.js.map",
     "index.html": "/season-display/index.html",
-    "static/js/2.0d73b33a.chunk.js.LICENSE.txt": "/season-display/static/js/2.0d73b33a.chunk.js.LICENSE.txt"
+    "static/css/main.d21252c1.chunk.css.map": "/season-display/static/css/main.d21252c1.chunk.css.map",
+    "static/js/2.f2d67437.chunk.js.LICENSE.txt": "/season-display/static/js/2.f2d67437.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6118455.js",
-    "static/js/2.0d73b33a.chunk.js",
-    "static/js/main.0006e18c.chunk.js"
+    "static/js/2.f2d67437.chunk.js",
+    "static/css/main.d21252c1.chunk.css",
+    "static/js/main.6888d3cd.chunk.js"
   ]
 }
